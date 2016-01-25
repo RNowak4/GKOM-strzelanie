@@ -1,0 +1,42 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GKOM-Shooter</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GKOM-Shooter</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="opengl_wstep.vcxproj" File="opengl_wstep.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">opengl_wstep.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Alive.cpp">Alive.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Bullet.cpp">Bullet.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Camera.cpp">Camera.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Color.cpp">Color.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Coordinable.cpp">Coordinable.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemy.cpp">Enemy.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.cpp">Game.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GameObject.cpp">GameObject.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Movable.cpp">Movable.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.cpp">Player.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Alive.h">Alive.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Bullet.h">Bullet.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Camera.h">Camera.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Color.h">Color.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Coordinable.h">Coordinable.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemy.h">Enemy.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.h">Game.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GameObject.h">GameObject.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Movable.h">Movable.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.h">Player.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
